@@ -1,5 +1,6 @@
 import React from 'react';
 import { Divide } from 'lucide-react';
+import Image from 'next/image';
 
 interface BlogPostProps {
   title: string;
@@ -31,7 +32,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
 
       {/* Image */}
       <div className="relative w-full h-64 md:h-80 lg:h-96 mx-auto mb-6 overflow-hidden rounded-lg shadow-md">
-        <img
+        <Image
           src={imageUrl}
           alt={title}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

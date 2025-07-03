@@ -13,7 +13,7 @@ const Introduction = () => {
             <div className="col-span-12 lg:col-span-4 order-1">
                 <div className="relative w-[200px] h-[300px] lg:w-[250px] lg:h-[350px] mx-auto 
                               rounded-[100px] overflow-hidden border-4 border-white shadow-lg">
-                    <img
+                    <Image
                         src="/images/profile.jpg"
                         alt="Profile Picture"
                         className="w-full h-full object-cover"
@@ -25,7 +25,7 @@ const Introduction = () => {
             
             <div className="col-span-12 lg:col-span-7 order-2 text-center sm:text-left">
                 <h1 className="text-black mb-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold whitespace-nowrap">
-                    <span>Hello, I'm {" "}</span>
+                    <span>Hello, I&apos;m {" "}</span>
                     <TypeAnimation
                         sequence={[
                             'Howard',

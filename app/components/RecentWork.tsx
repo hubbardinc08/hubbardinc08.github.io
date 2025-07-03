@@ -1,4 +1,4 @@
-import { Divide } from 'lucide-react'
+{/*import { Divide } from 'lucide-react'*/}
 import React from 'react'
 import BlogPost from './BlogPost'
 
@@ -31,7 +31,7 @@ const RecentWork = () => {
         {/*
         <div>
             <div className="relative w-[600px] h-[500px] lg:w-[800px] lg:h-[600px] mx-auto overflow-hidden border-4 border-white shadow-lg items-center">
-                <img
+                <Image
                     src="/images/astrocon25-winners.jpg"
                     alt="Profile Picture"
                     className="w-full h-full object-cover"

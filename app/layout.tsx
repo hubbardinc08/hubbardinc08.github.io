@@ -5,6 +5,7 @@ import { Comfortaa } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 
+{/*
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,6 +26,8 @@ const comfortaa = Comfortaa({
   subsets: ["latin"],
   weight: ["400", "700"]
 })
+
+*/}
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-josefin-sans",
