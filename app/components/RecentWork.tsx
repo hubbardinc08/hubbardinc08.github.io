@@ -5,20 +5,19 @@ import BlogPost from './BlogPost'
 const RecentWork = () => {
     const blogPosts = [
     {
+        title: "Howard @ AstroCon 2025",
+        date: "June 24, 2025",
+        excerpt: "Attended Astronomical League's AstroCON 2025 event at Bryce Canyon National Park. Class 2 Bortle Level. Life-changing experience.",
+        imageUrl: "/images/astrocon25-winners.jpg",
+        tags: ["Astronomy", "Conference", "AI", "National Young Astronomer Award", "Bryce Canyon National Park"],
+    },
+    {
         title: "National Guild Level 16",
         date: "June 23, 2025",
         excerpt: "Passing the highest National Guild piano exam level.",
         imageUrl: "/images/piano-guild.png",
         tags: ["Piano", "Guild", "Level 16"],
         audioUrl: "/videos/guild-audio.mp3"
-    },
-
-    {
-        title: "Howard @ AstroCon 2025",
-        date: "June 24, 2025",
-        excerpt: "Attended Astronomical League's AstroCON 2025 event at Bryce Canyon National Park. Class 2 Bortle Level. Life-changing experience.",
-        imageUrl: "/images/astrocon25-winners.jpg",
-        tags: ["Astronomy", "Conference", "AI", "National Young Astronomer Award", "Bryce Canyon National Park"],
     },
 
   ];
