@@ -6,6 +6,7 @@ import { Comfortaa } from "next/font/google";
 */}
 import { Playfair_Display } from "next/font/google";
 import "./globals.css";
+import NavBar from './components/NavBar'
 
 {/*
 const geistSans = Geist({
@@ -52,6 +53,7 @@ export default function RootLayout({
         //className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         className={`${playfairDisplay.className}`}
       >
+        <NavBar />
         {children}
       </body>
     </html>

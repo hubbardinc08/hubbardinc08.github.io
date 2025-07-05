@@ -63,9 +63,10 @@ const Introduction = () => {
                         Email Me
                     </Link>
 
-                    {/* Portfolio Button */}
-                    <Link 
+                    {/* Hockey */}
+                    <Link
                         href="https://www.eliteprospects.com/player/888354/howard-qian"
+
                         className="px-6 py-3 w-full sm:w-fit rounded-full 
                                 bg-gradient-to-br from-purple-100 via-purple-200 to-pink-300 
                                 font-bold border border-slate-200 
@@ -82,7 +83,7 @@ const Introduction = () => {
                                 font-bold border border-slate-200 
                                 transition-all duration-300 hover:shadow-lg hover:shadow-amber-300/40 
                                 hover:-translate-y-0.5 cursor-pointer text-center
-                                mb-3"> {/* Only bottom margin for last item */}
+                                mr-3 mb-3"> {/* Only bottom margin for last item */}
                         Schedule Call
                     </Link>
                 </div>

@@ -47,7 +47,7 @@ const RecentWork = () => {
                     <div key={index}>
                         <BlogPost {...post} />
                         {/* Add audio player only for first post */}
-                        {index === 0 && post.audioUrl && (
+                        {post.audioUrl && (
                             <div className="mt-6 max-w-2xl mx-auto">
                                 <audio controls className="w-full">
                                     <source src={post.audioUrl} type="audio/mpeg" />
