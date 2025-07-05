@@ -1,23 +1,30 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Keep existing ESLint/TypeScript settings
   eslint: {
-    ignoreDuringBuilds: false, 
+    ignoreDuringBuilds: false,
     dirs: ['app', 'components', 'pages'],
   },
   typescript: {
-    ignoreBuildErrors: false, 
+    ignoreBuildErrors: false,
   },
 
-  output: process.env.NODE_ENV === 'production' ? 'export' : undefined,
+  // Force static export ALWAYS (remove conditional)
+  output: 'export', // ← Critical change
 
-  productionBrowserSourceMaps: true,
+  // Disable source maps in production (optional)
+  productionBrowserSourceMaps: false,
 
   reactStrictMode: true,
 
+  // Required for static exports
   images: {
-    unoptimized: true,
-  }
+    unoptimized: true, // Disables Image Optimization API (not available in static exports)
+  },
+
+  // Optional: Add basePath if using GitHub Pages subpath (e.g., /repo-name)
+  // basePath: '/repo-name',
 };
 
 export default nextConfig;
