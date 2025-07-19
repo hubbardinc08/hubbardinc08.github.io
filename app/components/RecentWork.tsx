@@ -46,7 +46,7 @@ const RecentWork = () => {
                 {blogPosts.map((post, index) => (
                     <div key={index}>
                         <BlogPost {...post} />
-                        {/* Add audio player only for first post */}
+          
                         {post.audioUrl && (
                             <div className="mt-6 max-w-2xl mx-auto">
                                 <audio controls className="w-full">
